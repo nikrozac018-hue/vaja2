@@ -45,3 +45,9 @@ def liha(seznam):
             lih+=1
     print(lih)
 liha(seznam)
+
+def vecja(seznam):
+    for i in seznam:
+        if (i>10):
+            print(i)
+vecja(seznam)
