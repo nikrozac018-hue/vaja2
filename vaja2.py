@@ -29,3 +29,11 @@ def najmanj(seznam):
             najmanjse=i
     print(najmanjse)
 najmanj(seznam)
+
+def soda(seznam):
+    sod=0
+    for i in seznam:
+        if(i%2==0):
+            sod+=1
+    print(sod)
+soda(seznam)
