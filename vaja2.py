@@ -13,3 +13,11 @@ def povprecna(seznam):
         povp+=i
     print(povp/len(seznam))
 povprecna(seznam)
+
+def najvec(seznam):
+    naj=seznam[0]
+    for i in seznam:
+        if (i>naj):
+            naj=i
+    print(naj)
+najvec(seznam)
