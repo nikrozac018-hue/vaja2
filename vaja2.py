@@ -21,3 +21,11 @@ def najvec(seznam):
             naj=i
     print(naj)
 najvec(seznam)
+
+def najmanj(seznam):
+    najmanjse=seznam[0]
+    for i in seznam:
+        if(i<najmanjse):
+            najmanjse=i
+    print(najmanjse)
+najmanj(seznam)
