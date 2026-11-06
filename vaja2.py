@@ -37,3 +37,11 @@ def soda(seznam):
             sod+=1
     print(sod)
 soda(seznam)
+
+def liha(seznam):
+    lih=0
+    for i in seznam:
+        if(i%2==1):
+            lih+=1
+    print(lih)
+liha(seznam)
