@@ -67,3 +67,10 @@ def bubble_sort(arr):
     return arr
 urejen_seznam = bubble_sort(seznam.copy())
 print(urejen_seznam)
+
+
+def dodaj(seznam):
+    stevilo=int(input("Vnesi stevilo: "))
+    seznam.append(stevilo)
+    print(seznam)
+dodaj(seznam)
