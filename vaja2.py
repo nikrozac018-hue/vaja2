@@ -7,3 +7,9 @@ def vsota(seznam):
 vsota(seznam)
 
 
+def povprecna(seznam):
+    povp=0
+    for i in seznam:
+        povp+=i
+    print(povp/len(seznam))
+povprecna(seznam)
