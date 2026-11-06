@@ -74,3 +74,14 @@ def dodaj(seznam):
     seznam.append(stevilo)
     print(seznam)
 dodaj(seznam)
+
+def odstrani(seznam):
+    stevilo2=int(input("Vnesi stevilo: "))
+    while stevilo2<0:
+        stevilo2=int(input("Vnesi stevilo: "))
+    if stevilo2 in seznam:
+        seznam.remove(stevilo2)
+        print(seznam)
+    else:
+        print("Stevilo ni v seznamu.")
+odstrani(seznam)
